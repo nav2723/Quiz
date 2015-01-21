@@ -31,15 +31,13 @@
     if (self){
         //Create two arrayed filled with questions and answers and make the pointers point to them
         
-        self.questions = @[@"",
-                           @"",
-                           @"",
-                           @""];
+        self.questions = @[@"What is my name?",
+                           @"How old am I?",
+                           @"What is my major?"];
         
-        self.answers = @[@"",
-                         @"",
-                         @"",
-                         @""];
+        self.answers = @[@"Naveen Srivastava",
+                         @"20",
+                         @"Information Sciences"];
     }
     //Return the address of the new object
     return self;
