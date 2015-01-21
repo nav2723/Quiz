@@ -19,6 +19,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {	
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //Override point of customization after application launch
+    ViewController *quizVC = [[ViewController alloc] init];
+    self.window.rootViewController = quizVC;
 	
 	self.window.backgroundColor = [UIColor whiteColor];
 	[self.window makeKeyAndVisible];
